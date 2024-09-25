@@ -5,5 +5,9 @@
     Please create a test case and attach the link of the codesandbox to your
     github issue report.
   </p>
-  <Button label="Button" />
+  <Button label="default" v-tooltip="'default'" />
+  <Button label="left" severity="danger" v-tooltip.left="'left'" />
+  <Button label="right" severity="warning" v-tooltip.right="'right'" />
+  <Button label="top" severity="info" v-tooltip.top="'top'" />
+  <Button label="bottom" severity="success" v-tooltip.bottom="'bottom'" />
 </template>
