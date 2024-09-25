@@ -124,14 +124,12 @@ import Tree from 'primevue/tree';
 import TreeSelect from 'primevue/treeselect';
 import TreeTable from 'primevue/treetable';
 import VirtualScroller from 'primevue/virtualscroller';
-import Lara from 'src/presets/lara';
+import Lara from './presets/lara';
 
 const app = createApp(App);
 
 app.use(PrimeVue, {
-  theme: {
-    unstyled: true
-  },
+  unstyled: true,
   pt: Lara,
 });
 
